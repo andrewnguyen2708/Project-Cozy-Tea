@@ -1,0 +1,149 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.8;
+}
+
+/* Header */
+
+header {
+    position: fixed
+    top: 69px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0,9;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+/* Mission section */
+
+#mission {
+    background-image: url("../Images/mission.webp");
+    height: 700px;
+    width: 1200px;
+    margin-left: 50px;
+}
+
+#content {
+    position: absolute;
+    top: 300px;
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Featured section */
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-tea {
+    width: 1000px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+}
+
+
+#images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.single-image {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.single-image h4 {
+    text-align: center;
+}
+
+#last-images {
+    display: inline-flex;
+    width: 680px;
+    justify-content: space-around;
+}
+
+/* Location Section */
+
+#locations {
+    background-image: url("../Images/8.webp");
+    background-size: auto 160%;
+    background-position-y: -50px;
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.location-contents {
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-around;
+    position: relative;
+    left: 70px;
+}
+
+.location-box {
+    background-color: black;
+    width: 240px;
+    height: 240px;
+    padding: 30px;
+    font-size: larger;
+}
+
+.location-box h4 {
+    font-weight: 500;
+}
+
+/* footer */
+
+#informations {
+    text-align: center;
+}
+
